@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lerdge_heatbed")(type "KiCad")(uri "${KIPRJMOD}/lerdge_heatbed.kicad_sym")(options "")(descr ""))
+)

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "2ccb6803-f597-4b91-b781-68e055fdefb5")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "DM542T_Digital_Stepper_Driver_1"
 			(exclude_from_sim no)
@@ -1575,6 +1575,350 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lerdge_heatbed:lerdge_heatbed"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "lerdge_heatbed_0_1"
+				(rectangle
+					(start -7.62 -2.54)
+					(end 8.89 -31.75)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "lerdge_heatbed_1_1"
+				(pin power_in line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "POWER1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -29.21 270)
+					(length 2.54)
+					(name "HEATBED1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "POWER2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 -29.21 270)
+					(length 2.54)
+					(name "HEATBED2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -12.7 0)
+					(length 2.54)
+					(name "CONTROL+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -20.32 0)
+					(length 2.54)
+					(name "CONTROL-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lerdge_heatbed_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "lerdge_heatbed_1_0_1"
+				(rectangle
+					(start -7.62 -2.54)
+					(end 8.89 -31.75)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "lerdge_heatbed_1_1_1"
+				(pin power_in line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "POWER1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -29.21 270)
+					(length 2.54)
+					(name "HEATBED1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "POWER2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 -29.21 270)
+					(length 2.54)
+					(name "HEATBED2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -12.7 0)
+					(length 2.54)
+					(name "CONTROL+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -20.32 0)
+					(length 2.54)
+					(name "CONTROL-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4108,6 +4452,87 @@
 		(uuid "fc9100f5-495a-43ba-9ad2-349f0c3b58fe")
 	)
 	(symbol
+		(lib_id "lerdge_heatbed:lerdge_heatbed")
+		(at 59.69 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05c7af11-b38c-4a9d-bbd9-a62b350bdf3e")
+		(property "Reference" "U5"
+			(at 58.674 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 245.7449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "44cc536f-0af6-4dac-bf17-5ca750ef255d")
+		)
+		(pin ""
+			(uuid "b9dc0c33-ed30-4af8-8ae1-353e5cd3673e")
+		)
+		(pin ""
+			(uuid "754e5540-2fd8-4fb3-97f6-8c2598fea8da")
+		)
+		(pin ""
+			(uuid "0ab6ab89-a297-49bf-af37-f48e3e55ab39")
+		)
+		(pin ""
+			(uuid "179338f9-7e42-4391-8e0a-cd14b378da03")
+		)
+		(pin ""
+			(uuid "83dd9907-13ed-43b1-9114-81fc51abb31c")
+		)
+		(instances
+			(project ""
+				(path "/2ccb6803-f597-4b91-b781-68e055fdefb5"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Motor:Motor_Servo")
 		(at 264.16 58.42 0)
 		(unit 1)
@@ -4199,7 +4624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D1"
+		(property "Value" "U1"
 			(at 41.803 134.62 0)
 			(effects
 				(font
@@ -5523,7 +5948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D2"
+		(property "Value" "U2"
 			(at 88.793 134.62 0)
 			(effects
 				(font
@@ -6337,7 +6762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D3"
+		(property "Value" "U3"
 			(at 137.053 134.62 0)
 			(effects
 				(font
@@ -6418,6 +6843,88 @@
 			(project "PULSE"
 				(path "/2ccb6803-f597-4b91-b781-68e055fdefb5"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "lerdge_heatbed_1")
+		(lib_id "lerdge_heatbed:lerdge_heatbed")
+		(at 105.41 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff1bf24f-b74d-4fa7-a663-297b13d89897")
+		(property "Reference" "U6"
+			(at 104.648 234.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 245.7449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d3d1c86b-e664-4c55-8557-3d459b31dde5")
+		)
+		(pin ""
+			(uuid "6cf0e441-0d0a-4ada-8da2-a19bb53e1d78")
+		)
+		(pin ""
+			(uuid "2f30acab-3dd1-4b80-9df1-e6a5eb27d051")
+		)
+		(pin ""
+			(uuid "23d4c9c8-ab6f-4521-a81a-2bc4bf870692")
+		)
+		(pin ""
+			(uuid "2f368a67-7c28-4792-93f5-2d900b15078b")
+		)
+		(pin ""
+			(uuid "a1616fc6-f3f8-4c0a-a68d-4c533711c7d0")
+		)
+		(instances
+			(project "PULSE"
+				(path "/2ccb6803-f597-4b91-b781-68e055fdefb5"
+					(reference "U6")
 					(unit 1)
 				)
 			)
